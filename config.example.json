@@ -1,0 +1,40 @@
+{
+  "storage": {
+    "path": "data/price_history.csv"
+  },
+  "request": {
+    "timeout": 15,
+    "retries": 2,
+    "retry_delay": 2,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  },
+  "alerts": {
+    "notify_on_drop": true,
+    "desktop": false,
+    "email": {
+      "enabled": false,
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "sender": "you@example.com",
+      "recipients": ["you@example.com"],
+      "password_env": "PRICESENTRY_SMTP_PASSWORD"
+    }
+  },
+  "schedule": {
+    "interval_minutes": 360
+  },
+  "products": [
+    {
+      "name": "Example Product",
+      "url": "https://example.com/product/12345",
+      "selector": "#priceblock_ourprice",
+      "threshold": 99.99,
+      "currency": "USD"
+    },
+    {
+      "name": "Product Without A Selector",
+      "url": "https://example.com/product/67890",
+      "threshold": 250.0
+    }
+  ]
+}

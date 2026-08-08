@@ -1,0 +1,11 @@
+# Core
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Optional but recommended
+lxml>=5.0.0          # faster, more forgiving HTML parser (falls back to html.parser)
+matplotlib>=3.8.0    # only needed for the `chart` command
+plyer>=2.1.0         # only needed for desktop notifications
+
+# Development
+pytest>=8.0.0

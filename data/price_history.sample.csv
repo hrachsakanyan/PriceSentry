@@ -1,0 +1,15 @@
+timestamp,product,url,price,currency
+2026-01-02 09:00:03,Aurora X200 Headphones,https://demoshop.example/p/aurora-x200,199.99,USD
+2026-01-02 09:00:04,Nimbus 68 Keyboard,https://demoshop.example/p/nimbus-68,109.00,USD
+2026-01-03 09:00:02,Aurora X200 Headphones,https://demoshop.example/p/aurora-x200,199.99,USD
+2026-01-03 09:00:03,Nimbus 68 Keyboard,https://demoshop.example/p/nimbus-68,109.00,USD
+2026-01-04 09:00:05,Aurora X200 Headphones,https://demoshop.example/p/aurora-x200,189.99,USD
+2026-01-04 09:00:06,Nimbus 68 Keyboard,https://demoshop.example/p/nimbus-68,99.50,USD
+2026-01-05 09:00:02,Aurora X200 Headphones,https://demoshop.example/p/aurora-x200,189.99,USD
+2026-01-05 09:00:03,Nimbus 68 Keyboard,https://demoshop.example/p/nimbus-68,99.50,USD
+2026-01-06 09:00:04,Aurora X200 Headphones,https://demoshop.example/p/aurora-x200,174.50,USD
+2026-01-06 09:00:05,Nimbus 68 Keyboard,https://demoshop.example/p/nimbus-68,99.50,USD
+2026-01-07 09:00:03,Aurora X200 Headphones,https://demoshop.example/p/aurora-x200,149.99,USD
+2026-01-07 09:00:04,Nimbus 68 Keyboard,https://demoshop.example/p/nimbus-68,89.50,USD
+2026-01-08 09:00:02,Aurora X200 Headphones,https://demoshop.example/p/aurora-x200,149.99,USD
+2026-01-08 09:00:03,Nimbus 68 Keyboard,https://demoshop.example/p/nimbus-68,89.50,USD

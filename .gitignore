@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# PriceSentry data - your own price log and charts stay local
+data/*.csv
+data/*.json
+data/*.png
+!data/.gitkeep
+!data/price_history.sample.csv
+
+# Local config may contain your own product URLs / email settings
+config.local.json
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

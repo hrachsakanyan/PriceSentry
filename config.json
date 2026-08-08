@@ -1,0 +1,38 @@
+{
+  "storage": {
+    "path": "data/price_history.csv"
+  },
+  "request": {
+    "timeout": 15,
+    "retries": 2,
+    "retry_delay": 2
+  },
+  "alerts": {
+    "notify_on_drop": true,
+    "desktop": false,
+    "email": {
+      "enabled": false,
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "sender": "",
+      "recipients": [],
+      "password_env": "PRICESENTRY_SMTP_PASSWORD"
+    }
+  },
+  "schedule": {
+    "interval_minutes": 360
+  },
+  "products": [
+    {
+      "name": "Aurora X200 Headphones (demo)",
+      "url": "samples/demo_headphones.html",
+      "selector": ".price-now",
+      "threshold": 160.0
+    },
+    {
+      "name": "Nimbus 68 Keyboard (demo)",
+      "url": "samples/demo_keyboard.html",
+      "threshold": 75.0
+    }
+  ]
+}
