@@ -12,7 +12,7 @@ It can run manually for one-time checks or continuously with `watch`, allowing y
 
 ## ✨ Features 
 
-### 🔎 Price Monitoring
+### 🔎 Price Monitoring 
 
 * Scrape prices from product pages using CSS selectors
 * Automatic fallback to:
