@@ -14,7 +14,7 @@ It can run manually for one-time checks or continuously with `watch`, allowing y
 
 ### 🔎 Price Monitoring 
 
-* Scrape prices from product pages using CSS selectors
+* Scrape prices from product pages using CSS selectors 
 * Automatic fallback to:
 
   * `product:price:amount` meta tags
