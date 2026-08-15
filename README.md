@@ -267,7 +267,7 @@ The storage format is determined by the file extension.
 
 ---
 
-# 🖥️ Usage
+# 🖥️ Usage 
 
 ## Check prices
 
