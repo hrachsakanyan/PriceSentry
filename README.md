@@ -329,7 +329,7 @@ python -m src.main chart -p "Headphones" -o mychart.png
 
 ---
 
-## 🛒 View Tracked Products
+## 🛒 View Tracked Products 
 
 ```bash
 python -m src.main products
