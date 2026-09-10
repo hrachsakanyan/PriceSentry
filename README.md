@@ -57,7 +57,7 @@ It can run manually for one-time checks or continuously with `watch`, allowing y
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Architecture 
 
 PriceSentry follows a simple data-collection pipeline:
 
