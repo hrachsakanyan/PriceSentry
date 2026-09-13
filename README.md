@@ -1,4 +1,4 @@
-# 🛡️ PriceSentry 
+# 🛡️ PriceSentry
 
 ### Track product prices. Detect drops. Get alerted.
 
